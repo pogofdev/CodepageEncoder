@@ -325,6 +325,12 @@ const definitions = {
     offset: 128,
     chars: '€�‚ƒ„…†‡ˆ‰�‹Œ����‘’“”•–—˜™�›œ��Ÿ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂĂÄÅÆÇÈÉÊË̀ÍÎÏĐÑ̉ÓÔƠÖ×ØÙÚÛÜỮßàáâăäåæçèéêë́íîïđṇ̃óôơö÷øùúûüư₫ÿ',
   },
+  'tcvn': {
+    name: 'TCVN',
+    languages: ['vitcvn'],
+    offset: 0,
+    chars: '\u0000ÚỤ\u0003ỪỬỮ\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010ỨỰỲỶỸÝỴ\u0018\u0019\u001a\u001b\u001c\u001d\u001e\u001f !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÀẢÃÁẠẶẬÈẺẼÉẸỆÌỈĨÍỊÒỎÕÓỌỘỜỞỠỚỢÙỦŨ ĂÂÊÔƠƯĐăâêôơưđẶ̀̀̉̃́àảãáạẲằẳẵắẴẮẦẨẪẤỀặầẩẫấậèỂẻẽéẹềểễếệìỉỄẾỒĩíịòỔỏõóọồổỗốộờởỡớợùỖủũúụừửữứựỳỷỹýỵỐ',
+  },
 };
 
 const strings = {
@@ -348,7 +354,8 @@ const strings = {
   he: 'אני יכול לאכול זכוכית וזה לא מזיק לי.',
   fa: '.من می توانم بدونِ احساس درد شيشه بخورم',
   uk: 'Я можу їсти скло, і воно мені не зашкодить.',
-  vi: 'Tôi có thể ăn thủy tinh mà không hại gì.',
+  vi: 'Chào các bạn tôi tên là lý nguyễn minh bảo',
+  vitcvn: 'Chào các bạn tôi tên là lý nguyễn minh bảo',
   kk: 'қазақша',
   lv: 'Es varu ēst stiklu, tas man nekaitē.',
   mt: 'Nista\' niekol il-ħġieġ u ma jagħmilli xejn.',
